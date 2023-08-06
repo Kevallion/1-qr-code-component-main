@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(212,225,238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    font-size: 15px;
+    font-family:'Inter';
+    text-align: center;
+}
+
+.attribution{
+position: absolute;
+bottom: 20px;
+}
+
+.main-container{
+background-color: hsl(0, 0%, 100%);
+width: 322px;
+height:496px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+padding: 16px;
+box-shadow: 0 0 20px 0px #00000014;
+}
+
+.qr-code{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.paragraphe{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px;
+}
+
+.first-p{
+    
+    font-weight: 700;
+    font-size:1.3rem;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 15px;
+}
+
+.second-p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:hsl(220, 15%, 55%)
+}
